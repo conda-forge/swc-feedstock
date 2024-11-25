@@ -1,5 +1,5 @@
 {% set name = "swc" %}
-{% set version = "1.7.27" %}
+{% set version = "1.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/swc-project/swc/archive/v{{ version }}.tar.gz
-  sha256: 0cdb3e58062798eda19d8dde5aca33e7188805f12df1564ce187670b37c9935a
+  sha256: 774db83f7ace9d9765794a22191edc981a28ee64f9d6062df08edf1a9d202cab
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
