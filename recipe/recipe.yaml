@@ -1,5 +1,5 @@
 context:
-  version: 1.9.3
+  version: "1.15.40"
 
 package:
   name: swc
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/swc-project/swc/archive/v${{ version }}.tar.gz
-  sha256: 774db83f7ace9d9765794a22191edc981a28ee64f9d6062df08edf1a9d202cab
+  sha256: 3773f1003b9c7750a8bfc60aea9d9816df01b3f0856cc37e58b7108c28f0e5e2
 
 build:
-  number: 1
+  number: 0
   skip: win
 
 requirements:
